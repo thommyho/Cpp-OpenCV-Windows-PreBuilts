@@ -1,6 +1,6 @@
 # Prebuilt binaries OpenCV C++ for Windows
 ##### Current stable build of gRPC v4.5.4
-##### gRPC [v4.5.4](https://github.com/grpc/grpc/releases/tag/v4.5.4) 
+##### OpenCV [v4.5.4](https://github.com/grpc/grpc/releases/tag/v4.5.4) 
 
 > They can be downloaded separately as zip archives from the  [releases](https://github.com/thommyho/Cpp-OpenCV-Windows-PreBuilts/releases) page
 

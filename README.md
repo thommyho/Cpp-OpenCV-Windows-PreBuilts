@@ -35,7 +35,7 @@ General configuration for OpenCV 4.5.4 =====================================
     Timestamp:                   2021-12-07T09:53:22Z
     Host:                        Windows 10.0.19044 AMD64
     CMake:                       3.20.0-rc1    
-    Configuration:               Debug Release MinSizeRel RelWithDebInfo
+    Configuration:               Debug Release RelWithDebInfo
 
   CPU/HW features:
     Baseline:                    SSE SSE2

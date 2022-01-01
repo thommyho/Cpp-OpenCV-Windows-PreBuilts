@@ -1,6 +1,6 @@
 # Prebuilt binaries OpenCV C++ for Windows
-##### Current stable build of gRPC v4.5.4
-##### OpenCV [v4.5.4](https://github.com/grpc/grpc/releases/tag/v4.5.4) 
+##### Current stable build of gRPC v4.5.5
+##### OpenCV [v4.5.5](https://github.com/grpc/grpc/releases/tag/v4.5.5) 
 
 > They can be downloaded separately as zip archives from the  [releases](https://github.com/thommyho/Cpp-OpenCV-Windows-PreBuilts/releases) page
 
@@ -9,7 +9,7 @@
 
 | Version | Commit | Debug | Release  | RelWithDebInfo | MSVC142 32Bit | MSVC142 64Bit | MSVC141 32 Bit | MSVC141 64 Bit | MSVC140 32 Bit | MSVC140 64 Bit | Example |
 |---------|------------|-------|----------|----------------|---------------|---------------|----------------|----------------|----------------|----------------|---------|
-| [4.5.4](https://github.com/thommyho/Cpp-OpenCV-Windows-PreBuilts/releases/tag/v4.5.4) | 4223495e6cd67011f86b8ecd9be1fa105018f3b1 | :ballot_box_with_check: | :ballot_box_with_check: | :ballot_box_with_check:              | :ballot_box_with_check:             | :ballot_box_with_check:             | :ballot_box_with_check:              | :ballot_box_with_check:              | :ballot_box_with_check:              | :ballot_box_with_check:              | :ballot_box_with_check:       |
+| [4.5.5](https://github.com/thommyho/Cpp-OpenCV-Windows-PreBuilts/releases/tag/v4.5.5) | 4223495e6cd67011f86b8ecd9be1fa105018f3b1 | :ballot_box_with_check: | :ballot_box_with_check: | :ballot_box_with_check:              | :ballot_box_with_check:             | :ballot_box_with_check:             | :ballot_box_with_check:              | :ballot_box_with_check:              | :ballot_box_with_check:              | :ballot_box_with_check:              | :ballot_box_with_check:       |
 
 HelloWorld-Example included. Tested with VS2015, VS2017 and VS2019 Enterprise and msvc140, msvc141, msvc142 (Win 10, SDK 10.X)
 
@@ -27,29 +27,42 @@ HelloWorld-Example included. Tested with VS2015, VS2017 and VS2019 Enterprise an
 | MSVC 142         | 19.29.30133.0  |
 
 ```console
-General configuration for OpenCV 4.5.4 =====================================
+General configuration for OpenCV 4.5.5 =====================================
 
-  Version control:               4.5.4
+  Version control:               4.5.5-dirty
 
   Platform:
-    Timestamp:                   2021-12-07T09:53:22Z
-    Host:                        Windows 10.0.19044 AMD64
-    CMake:                       3.20.0-rc1    
-    Configuration:               Debug Release RelWithDebInfo
+    Timestamp:                   2021-12-26T16:47:37Z
+    Host:                        Windows 10.0.19042 AMD64
+    CMake:                       3.21.2
+    CMake generator:             Visual Studio 16 2019
+    CMake build tool:            C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe
+    MSVC:                        1929
+    Configuration:               Debug Release MinSizeRel RelWithDebInfo
 
   CPU/HW features:
-    Baseline:                    SSE SSE2
-      requested:                 SSE2
-    Dispatched code generation:  SSE4_1 SSE4_2 FP16 AVX
-      requested:                 SSE4_1 SSE4_2 AVX FP16
-      SSE4_1 (15 files):         + SSE3 SSSE3 SSE4_1
-      SSE4_2 (1 files):          + SSE3 SSSE3 SSE4_1 POPCNT SSE4_2
-      FP16 (0 files):            + SSE3 SSSE3 SSE4_1 POPCNT SSE4_2 FP16 AVX
-      AVX (4 files):             + SSE3 SSSE3 SSE4_1 POPCNT SSE4_2 AVX
+    Baseline:                    SSE SSE2 SSE3
+      requested:                 SSE3
+    Dispatched code generation:  SSE4_1 SSE4_2 FP16 AVX AVX2 AVX512_SKX
+      requested:                 SSE4_1 SSE4_2 AVX FP16 AVX2 AVX512_SKX
+      SSE4_1 (16 files):         + SSSE3 SSE4_1
+      SSE4_2 (1 files):          + SSSE3 SSE4_1 POPCNT SSE4_2
+      FP16 (0 files):            + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 AVX
+      AVX (4 files):             + SSSE3 SSE4_1 POPCNT SSE4_2 AVX
+      AVX2 (31 files):           + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 FMA3 AVX AVX2
+      AVX512_SKX (5 files):      + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 FMA3 AVX AVX2 AVX_512F AVX512_COMMON AVX512_SKX
 
   C/C++:
     Built as dynamic libs?:      NO
-    C++ standard:                11    
+    C++ standard:                11
+    C++ Compiler:                C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe  (ver 19.29.30133.0)
+    C++ flags (Release):         /DWIN32 /D_WINDOWS /W4 /GR  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise     /EHa /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /MP  /MD /O2 /Ob2 /DNDEBUG 
+    C++ flags (Debug):           /DWIN32 /D_WINDOWS /W4 /GR  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise     /EHa /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /MP  /MDd /Zi /Ob0 /Od /RTC1 
+    C Compiler:                  C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe
+    C flags (Release):           /DWIN32 /D_WINDOWS /W3  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise     /MP   /MD /O2 /Ob2 /DNDEBUG 
+    C flags (Debug):             /DWIN32 /D_WINDOWS /W3  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise     /MP /MDd /Zi /Ob0 /Od /RTC1 
+    Linker flags (Release):      /machine:x64  /INCREMENTAL:NO 
+    Linker flags (Debug):        /machine:x64  /debug /INCREMENTAL 
     ccache:                      NO
     Precompiled headers:         YES
     Extra dependencies:          wsock32 comctl32 gdi32 ole32 setupapi ws2_32
@@ -71,7 +84,7 @@ General configuration for OpenCV 4.5.4 =====================================
 
   Media I/O: 
     ZLib:                        build (ver 1.2.11)
-    JPEG:                        build-libjpeg-turbo (ver 2.1.0-62)
+    JPEG:                        build-libjpeg-turbo (ver 2.1.2-62)
     PNG:                         build (ver 1.6.37)
     TIFF:                        build (ver 42 - 4.2.0)
     JPEG 2000:                   build (ver 2.4.0)
@@ -100,17 +113,21 @@ General configuration for OpenCV 4.5.4 =====================================
 
   Other third-party libraries:
     Intel IPP:                   2020.0.0 Gold [2020.0.0]
-           at:                   C:/Projects/Jenkins/2/3/4/workspace/OpenCV-Build-Pkg/opencv/build_4.5.4_MSVC141_32/3rdparty/ippicv/ippicv_win/icv
+           at:                   D:/Jenkins/2/3/4/workspace/OpenCV-Build-Pkg/opencv/build_4.5.5_MSVC142_64/3rdparty/ippicv/ippicv_win/icv
     Intel IPP IW:                sources (2020.0.0)
-              at:                C:/Projects/Jenkins/2/3/4/workspace/OpenCV-Build-Pkg/opencv/build_4.5.4_MSVC141_32/3rdparty/ippicv/ippicv_win/iw
+              at:                D:/Jenkins/2/3/4/workspace/OpenCV-Build-Pkg/opencv/build_4.5.5_MSVC142_64/3rdparty/ippicv/ippicv_win/iw
     Lapack:                      NO
     Eigen:                       NO
     Custom HAL:                  NO
-    Protobuf:                    build (3.5.1)
+    Protobuf:                    build (3.19.1)
 
   OpenCL:                        YES (NVD3D11)
-    Include path:                C:/Projects/Jenkins/2/3/4/workspace/OpenCV-Build-Pkg/opencv/3rdparty/include/opencl/1.2
-    Link libraries:              Dynamic load  
+    Include path:                D:/Jenkins/2/3/4/workspace/OpenCV-Build-Pkg/opencv/3rdparty/include/opencl/1.2
+    Link libraries:              Dynamic load
+
+  Python (for build):            NO
+
+  Install to:                    D:/out/opencv_4.5.5/MSVC142_64/RelWithDebInfo
 -----------------------------------------------------------------
 
 ```
@@ -137,6 +154,7 @@ General configuration for OpenCV 4.5.4 =====================================
 |       +-- pch.h
 |       +-- pch.cpp
 |       +-- Image_Read_and_Display.cpp
+|   ....
 |   +-- OpenCV_PropertySheet
 |       +-- OpenCV.props
 |   +-- res
@@ -160,6 +178,7 @@ General configuration for OpenCV 4.5.4 =====================================
 |       +-- pch.h
 |       +-- pch.cpp
 |       +-- Image_Read_and_Display.cpp
+|   ....
 |   +-- OpenCV_PropertySheet
 |       +-- OpenCV.props
 |   +-- res
@@ -183,6 +202,7 @@ General configuration for OpenCV 4.5.4 =====================================
 |       +-- pch.h
 |       +-- pch.cpp
 |       +-- Image_Read_and_Display.cpp
+|   ....
 |   +-- OpenCV_PropertySheet
 |       +-- OpenCV.props
 |   +-- res

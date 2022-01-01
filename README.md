@@ -9,7 +9,7 @@
 
 | Version | Commit | Debug | Release  | RelWithDebInfo | MSVC142 32Bit | MSVC142 64Bit | MSVC141 32 Bit | MSVC141 64 Bit | MSVC140 32 Bit | MSVC140 64 Bit | Example |
 |---------|------------|-------|----------|----------------|---------------|---------------|----------------|----------------|----------------|----------------|---------|
-| [4.5.5](https://github.com/thommyho/Cpp-OpenCV-Windows-PreBuilts/releases/tag/v4.5.5) | 4223495e6cd67011f86b8ecd9be1fa105018f3b1 | :ballot_box_with_check: | :ballot_box_with_check: | :ballot_box_with_check:              | :ballot_box_with_check:             | :ballot_box_with_check:             | :ballot_box_with_check:              | :ballot_box_with_check:              | :ballot_box_with_check:              | :ballot_box_with_check:              | :ballot_box_with_check:       |
+| [4.5.5](https://github.com/thommyho/Cpp-OpenCV-Windows-PreBuilts/releases/tag/v4.5.5) | dad26339a975b49cfb6c7dbe4bd5276c9dcb36e2 | :ballot_box_with_check: | :ballot_box_with_check: | :ballot_box_with_check:              | :ballot_box_with_check:             | :ballot_box_with_check:             | :ballot_box_with_check:              | :ballot_box_with_check:              | :ballot_box_with_check:              | :ballot_box_with_check:              | :ballot_box_with_check:       |
 
 HelloWorld-Example included. Tested with VS2015, VS2017 and VS2019 Enterprise and msvc140, msvc141, msvc142 (Win 10, SDK 10.X)
 

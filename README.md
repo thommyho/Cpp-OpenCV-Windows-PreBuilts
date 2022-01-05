@@ -9,6 +9,10 @@
 #### Aditional Visual Studio Examples
 They are maintained in this repository: https://github.com/thommyho/Cpp-OpenCV-Visual-Studio-Examples - Only tested with v4.5.4 and above.
 
+#### Additional Documentation
+
+&#8594; &#8594; [Step by step installation (usage) guide](https://thommyho.github.io/Cpp-OpenCV-Windows-PreBuilts) &#8592; &#8592;
+
 ##### Releases
 
 | Version | Build-Info | Debug | Release  | RelWithDebInfo | MSVC142 32Bit | MSVC142 64Bit | MSVC141 32 Bit | MSVC141 64 Bit | MSVC140 32 Bit | MSVC140 64 Bit | Example |

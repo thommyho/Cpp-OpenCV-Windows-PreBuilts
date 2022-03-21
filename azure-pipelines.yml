@@ -7,8 +7,9 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
-
+   name: Default
+   demands:
+    - agent.name -equals INTEL-PC
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'

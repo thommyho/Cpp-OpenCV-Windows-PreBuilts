@@ -73,10 +73,12 @@ markdown_extensions:
 plugins:
   - search:
       lang: en
+  - mkdocs-video
 
 nav:
   - "Home":
       - "Home": index.md
   - "Getting started":
       - "In three steps": steps.md
+      - "Examples": examples.md
       - "FAQ": faq.md

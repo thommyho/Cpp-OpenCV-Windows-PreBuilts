@@ -169,6 +169,17 @@ optional = false
 python-versions = ">=3.6"
 
 [[package]]
+name = "mkdocs-video"
+version = "1.1.0"
+description = ""
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+mkdocs = ">=1.1.0,<2"
+
+[[package]]
 name = "more-itertools"
 version = "8.12.0"
 description = "More routines for operating on iterables, beyond itertools"
@@ -330,7 +341,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "d0c50a3e88519a4b357fe94c88e458179a4a5f1a2e9aba92dbe0ea65eb2c5227"
+content-hash = "9bc6ecc8d7dbe8f4cb891a080b8cceaeca2d47f38610d15c14a4d7bc83885897"
 
 [metadata.files]
 atomicwrites = [
@@ -439,6 +450,9 @@ mkdocs-material = [
 mkdocs-material-extensions = [
     {file = "mkdocs-material-extensions-1.0.3.tar.gz", hash = "sha256:bfd24dfdef7b41c312ede42648f9eb83476ea168ec163b613f9abd12bbfddba2"},
     {file = "mkdocs_material_extensions-1.0.3-py3-none-any.whl", hash = "sha256:a82b70e533ce060b2a5d9eb2bc2e1be201cf61f901f93704b4acf6e3d5983a44"},
+]
+mkdocs-video = [
+    {file = "mkdocs-video-1.1.0.tar.gz", hash = "sha256:691124bcd1a721c07590fe94021277151eb8dabe06a2cb1fd66b58298506e5fc"},
 ]
 more-itertools = [
     {file = "more-itertools-8.12.0.tar.gz", hash = "sha256:7dc6ad46f05f545f900dd59e8dfb4e84a4827b97b3cfecb175ea0c7d247f6064"},

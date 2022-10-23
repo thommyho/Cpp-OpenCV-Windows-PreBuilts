@@ -1,6 +1,7 @@
 # Prebuilt binaries OpenCV C++ for Windows
-##### Current stable build of OpenCV v4.5.5
-##### Latest release (no pre-releases) OpenCV [v4.5.5](https://github.com/opencv/opencv/releases/tag/4.5.5) 
+##### Current stable build of OpenCV v4.6.0
+##### Latest release (no pre-releases) OpenCV [v4.6.0](https://github.com/opencv/opencv/releases/tag/4.6.0) 
+##### From v4.6.0 only MSVC143 and MSVC142 prebuilt-packages. VS2015 and VS2017 are marked as legacy.
 
 > They can be downloaded separately as zip archives from the  [releases](https://github.com/thommyho/Cpp-OpenCV-Windows-PreBuilts) page
 > 
@@ -15,9 +16,10 @@ They are maintained in this repository: https://github.com/thommyho/Cpp-OpenCV-V
 
 ##### Releases
 
-| Version | Build-Info | Debug | Release  | RelWithDebInfo | MSVC142 32Bit | MSVC142 64Bit | MSVC141 32 Bit | MSVC141 64 Bit | MSVC140 32 Bit | MSVC140 64 Bit | Example |
-|---------|------------|-------|----------|----------------|---------------|---------------|----------------|----------------|----------------|----------------|---------|
-| [4.5.5 ](https://github.com/thommyho/Cpp-OpenCV-Windows-PreBuilts/releases/tag/v4.5.5) | [link](https://github.com/thommyho/Cpp-OpenCV-Windows-PreBuilts/tree/v4.5.5) | :ballot_box_with_check: | :ballot_box_with_check: | :ballot_box_with_check:              | :ballot_box_with_check:             | :ballot_box_with_check:             | :ballot_box_with_check:              | :ballot_box_with_check:              | :ballot_box_with_check:              | :ballot_box_with_check:              | :ballot_box_with_check:
-| [4.5.4 ](https://github.com/thommyho/Cpp-OpenCV-Windows-PreBuilts/releases/tag/v4.5.4) | [link](https://github.com/thommyho/Cpp-OpenCV-Windows-PreBuilts/tree/v4.5.4) | :ballot_box_with_check: | :ballot_box_with_check: | :ballot_box_with_check:              | :ballot_box_with_check:             | :ballot_box_with_check:             | :ballot_box_with_check:              | :ballot_box_with_check:              | :ballot_box_with_check:              | :ballot_box_with_check:              | :ballot_box_with_check:
+| Version | Build-Info | Debug | Release  | RelWithDebInfo | MSVC143 32Bit | MSVC143 64Bit | MSVC142 32Bit | MSVC142 64Bit | MSVC141 32 Bit | MSVC141 64 Bit | MSVC140 32 Bit | MSVC140 64 Bit | Example |
+|---------|------------|-------|----------|----------------|---------------|---------------|----------------|----------------|----------------|----------------|---------|----------------|---------|
+| [4.6.0 ](https://github.com/thommyho/Cpp-OpenCV-Windows-PreBuilts/releases/tag/v4.6.0) | [link](https://github.com/thommyho/Cpp-OpenCV-Windows-PreBuilts/tree/v4.6.0) | :ballot_box_with_check: | :ballot_box_with_check: | :ballot_box_with_check:              | :ballot_box_with_check:             | :ballot_box_with_check:             | :ballot_box_with_check:              | :ballot_box_with_check:              |               |              | :ballot_box_with_check: 
+| [4.5.5 ](https://github.com/thommyho/Cpp-OpenCV-Windows-PreBuilts/releases/tag/v4.5.5) | [link](https://github.com/thommyho/Cpp-OpenCV-Windows-PreBuilts/tree/v4.5.5) | :ballot_box_with_check: | :ballot_box_with_check: | :ballot_box_with_check:              |              |             | :ballot_box_with_check:              | :ballot_box_with_check:              | :ballot_box_with_check:              | :ballot_box_with_check:              | :ballot_box_with_check:
+| [4.5.4 ](https://github.com/thommyho/Cpp-OpenCV-Windows-PreBuilts/releases/tag/v4.5.4) | [link](https://github.com/thommyho/Cpp-OpenCV-Windows-PreBuilts/tree/v4.5.4) | :ballot_box_with_check: | :ballot_box_with_check: | :ballot_box_with_check:              |             |             | :ballot_box_with_check:              | :ballot_box_with_check:              | :ballot_box_with_check:              | :ballot_box_with_check:              | :ballot_box_with_check:
 
 

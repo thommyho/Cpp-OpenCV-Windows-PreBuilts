@@ -30,12 +30,15 @@ If you completed the task, proceed as follows to this project setup
 ├─ vs2015/      # -> From Examples.zip - Directory containing project files (organize source code files and other resources) for Visual Studio 2015
 ├─ vs2017/      # -> From Examples.zip - Directory containing project files (organize source code files and other resources) for Visual Studio 2017
 ├─ vs2019/      # -> From Examples.zip - Directory containing project files (organize source code files and other resources) for Visual Studio 2019
+├─ vs2022/      # -> From Examples.zip - Directory containing project files (organize source code files and other resources) for Visual Studio 2022
 ├─ MSVC140_32/  # -> From MSC140_32.zip - Directory containing the prebuilt libraries and header files for Visual Studio 2015 targeting 32-bit
 ├─ MSVC140_64/  # -> From MSC140_64.zip - Directory containing the prebuilt libraries and header files for Visual Studio 2015 targeting 64-bit
 ├─ MSVC140_32/  # -> From MSC141_32.zip - Directory containing the prebuilt libraries and header files for Visual Studio 2017 targeting 32-bit
 ├─ MSVC140_64/  # -> From MSC141_64.zip - Directory containing the prebuilt libraries and header files for Visual Studio 2017 targeting 64-bit
 ├─ MSVC142_32/  # -> From MSC142_32.zip - Directory containing the prebuilt libraries and header files for Visual Studio 2019 targeting 64-bit
 ├─ MSVC142_64/  # -> From MSC142_64.zip - Directory containing the prebuilt libraries and header files for Visual Studio 2019 targeting 64-bit
+├─ MSVC143_32/  # -> From MSC143_32.zip - Directory containing the prebuilt libraries and header files for Visual Studio 2022 targeting 32-bit
+├─ MSVC143_64/  # -> From MSC143_64.zip - Directory containing the prebuilt libraries and header files for Visual Studio 2022 targeting 64-bit
 ├─ .gitattributes  # Can be ignored.
 ├─ .gitignore      # Can be ignored.
 └─ README.md       # Can be ingored.
@@ -47,7 +50,7 @@ If you completed the task, proceed as follows to this project setup
 
 Place for holding the Visual Studio Examples source code is following git [repository](https://github.com/thommyho/Cpp-OpenCV-Visual-Studio-Examples)
 
-(from version 1.43.0) In every directory there is solution file with `Examples_<vs_compiler_name>.sln` and other directories holding the wanted examples, required project, configuration and resource files. For e.g. vs2019 the directory-file-tree looks like that
+In every directory there is solution file with `Examples_<vs_compiler_name>.sln` and other directories holding the wanted examples, required project, configuration and resource files. For e.g. vs2019 the directory-file-tree looks like that
 
 ```sh
 .

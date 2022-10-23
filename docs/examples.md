@@ -10,6 +10,8 @@
 │  ├─ 1_Print_Version/* 
 ├─ vs2019/
 │  ├─ 1_Print_Version/*
+├─ vs2022/
+│  ├─ 1_Print_Version/*
 ```
 
 ![Image title](_assets/images/example_print_version.png)
@@ -24,6 +26,8 @@
 │  ├─ 2_Image_Read_and_Display/* 
 ├─ vs2019/
 │  ├─ 2_Image_Read_and_Display/*
+├─ vs2022/
+│  ├─ 2_Image_Read_and_Display/*
 ```
 
 ![Image title](_assets/images/example_image_read_and_display.png)
@@ -35,8 +39,10 @@
 ├─ vs2015/
 │  ├─ 3_Image_Webcam_Read_and_Display/*
 ├─ vs2017/
-│  ├─ 3_Image_Webcam_Read_and_Display/* 
+│  ├─ 3_Image_Webcam_Read_and_Display/*
 ├─ vs2019/
+│  ├─ 4_Image_Webcam_Canny_Detection/* 
+├─ vs2022/
 │  ├─ 3_Image_Webcam_Read_and_Display/*
 ```
 
@@ -52,6 +58,8 @@
 │  ├─ 4_Image_Webcam_Canny_Detection/* 
 ├─ vs2019/
 │  ├─ 4_Image_Webcam_Canny_Detection/*
+├─ vs2022/
+│  ├─ 4_Image_Webcam_Canny_Detection/*
 ```
 
 ![type:video](_assets/videos/examples_image_ebcam_canny_detection.mp4)
@@ -65,6 +73,8 @@
 ├─ vs2017/
 │  ├─ 5_Image_Traffic_Sign_Detection/* 
 ├─ vs2019/
+│  ├─ 4_Image_Webcam_Canny_Detection/*
+├─ vs2022/
 │  ├─ 5_Image_Traffic_Sign_Detection/*
 ```
 

@@ -8,8 +8,9 @@
 Or use following release table
 
 |                                                                Version                                                                |                                    Build-Info                                    |        All Build-Configurations         |                Examples                 |
-| :-----------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------: | :-------------------------------------: | :-------------------------------------: |
-| **[4.5.5](https://github.com/thommyho/Cpp-OpenCV-Windows-PreBuilts/releases/tag/v4.5.5) (:octicons-heart-fill-24:{ .heart } latest)** | **[link](https://github.com/thommyho/Cpp-OpenCV-Windows-PreBuilts/tree/v4.5.5)** | :material-check-decagram:{ .tick-blue } | :material-check-decagram:{ .tick-blue } |
+|:-------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------:|:---------------------------------------:|:---------------------------------------:|
+| **[4.6.0](https://github.com/thommyho/Cpp-OpenCV-Windows-PreBuilts/releases/tag/v4.6.0) (:octicons-heart-fill-24:{ .heart } latest)** | **[link](https://github.com/thommyho/Cpp-OpenCV-Windows-PreBuilts/tree/v4.6.0)** | :material-check-decagram:{ .tick-blue } | :material-check-decagram:{ .tick-blue } |
+|                         [4.5.5](ttps://github.com/thommyho/Cpp-OpenCV-Windows-PreBuilts/releases/tag/v4.5.5)                          |   [link](https://github.com/thommyho/Cpp-OpenCV-Windows-PreBuilts/tree/v4.5.5)   | :material-check-decagram:{ .tick-blue } | :material-check-decagram:{ .tick-blue } |
 |                         [4.5.4](ttps://github.com/thommyho/Cpp-OpenCV-Windows-PreBuilts/releases/tag/v4.5.4)                          |   [link](https://github.com/thommyho/Cpp-OpenCV-Windows-PreBuilts/tree/v4.5.4)   | :material-check-decagram:{ .tick-blue } | :material-check-decagram:{ .tick-blue } |
 
 The precompiled libraries are attached as assets compressed in zip archives to the bottom of the page.

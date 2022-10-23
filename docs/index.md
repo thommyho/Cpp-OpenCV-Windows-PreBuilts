@@ -5,16 +5,18 @@
 Prebuilt libraries and required header files packaged in archives.
 
 - For several modern Visual Studio Compilers:
-  - Visual Studio 2015 - `MSVC 140`
-  - Visual Studio 2017 - `MSVC 141`
+  - Visual Studio 2022 - `MSVC 143`
   - Visual Studio 2019 - `MSVC 142`
+  - Visual Studio 2017 - `MSVC 141` - until v4.5.5
+  - Visual Studio 2015 - `MSVC 140` - until v4.5.5
 - For both `32- and 64-Bit architectures`
 - Convenient with all three build configurations `Release`, `RelWithDebInfo`, `Debug`
 
 What is code without examples - harder to understand, less practical to get stated with, and so on.
 
 - Several easy starter examples from the official OpenCV project
-  - For `Visual Studio 2015`, `Visual Studio 2017` and `Visual Studio 2019`
+  - For `Visual Studio 2022` and `Visual Studio 2019`
+  - For older versions of Visual Studio e.g. `Visual Studio 2017` and `Visual Studio 2015` until version v4.5.5
   - `Pre-configured` - Can be used in seconds.
   - `Debuggable` - `RelWithDebInfo` and `Debug` include symbols
 
@@ -22,8 +24,7 @@ What is code without examples - harder to understand, less practical to get stat
 
 One of the compilers:
 
-- Visual Studio 2015 - `MSVC 140`
-- Visual Studio 2017 - `MSVC 141`
+- Visual Studio 2022 - `MSVC 143`
 - Visual Studio 2019 - `MSVC 142`
 
 For a better experience use one of the IDEs with one the upper mentioned compilers.

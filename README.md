@@ -1,64 +1,67 @@
 # Prebuilt binaries OpenCV C++ for Windows
-##### Current stable build of gRPC v4.6.0
-##### OpenCV [v4.6.0](https://github.com/grpc/grpc/releases/tag/v4.6.0) 
+
+##### Current stable build of gRPC v4.7.0
+
+##### OpenCV [v4.7.0](https://github.com/opencv/opencv/releases/tag/v4.7.0) 
 
 > They can be downloaded separately as zip archives from the  [releases](https://github.com/thommyho/Cpp-OpenCV-Windows-PreBuilts/releases) page
 
-
 ##### Releases
 
-| Version | Commit | Debug | Release  | RelWithDebInfo | MSVC143 32Bit| MSVC143 64Bit| MSVC142 32Bit | MSVC142 64Bit | MSVC141 32 Bit | MSVC141 64 Bit | MSVC140 32 Bit | MSVC140 64 Bit | Example |
-|---------|------------|-------|----------|----------------|---------------|---------------|----------------|----------------|----------------|----------------|---------|----------------|---------|
-| [4.6.0](https://github.com/thommyho/Cpp-OpenCV-Windows-PreBuilts/releases/tag/v4.6.0) | b0dc474160e389b9c9045da5db49d03ae17c6a6b | :ballot_box_with_check: | :ballot_box_with_check: | :ballot_box_with_check:              | :ballot_box_with_check:             | :ballot_box_with_check:             | :ballot_box_with_check:              | :ballot_box_with_check:              |               |              |        | | :ballot_box_with_check: |
+| Version                                                                               | Commit                                   | Debug                   | Release                 | RelWithDebInfo          | MSVC143 32Bit           | MSVC143 64Bit           | MSVC142 32Bit           | MSVC142 64Bit           | MSVC141 32 Bit | MSVC141 64 Bit | MSVC140 32 Bit | MSVC140 64 Bit | Example                 |
+|---------------------------------------------------------------------------------------|------------------------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|----------------|----------------|----------------|----------------|-------------------------|
+| [4.7.0](https://github.com/thommyho/Cpp-OpenCV-Windows-PreBuilts/releases/tag/v4.7.0) | 725e440d278aca07d35a5e8963ef990572b07316 | :ballot_box_with_check: | :ballot_box_with_check: | :ballot_box_with_check: | :ballot_box_with_check: | :ballot_box_with_check: | :ballot_box_with_check: | :ballot_box_with_check: |                |                |                |                | :ballot_box_with_check: |
 
 HelloWorld-Example included. Tested with VS2022 and VS2019 Enterprise and msvc140, msvc141, msvc142 (Win 10, SDK 10.X)
 
 #### Information about Build system and Tools
 
-| Operating System | SDK Version   |
-|------------------|---------------|
-| Windows 10 (x64) |  10.0         |
+| Operating System | SDK Version |
+|------------------|-------------|
+| Windows 10 (x64) | 10.0        |
 
-| Build Tool       | Version        |
-|------------------|----------------|
-| cmake            | 3.20.0-rc1     |
-| MSVC 143         | 19.29.30143    |
-| MSVC 142         | 19.31.31107    |
+| Build Tool | Version     |
+|------------|-------------|
+| cmake      | 3.20.0-rc1  |
+| MSVC 143   | 19.29.30143 |
+| MSVC 142   | 19.31.31107 |
 
 ```console
--- General configuration for OpenCV 4.6.0 =====================================
---   Version control:               4.6.0-dirty
+-- General configuration for OpenCV 4.7.0 =====================================
+--   Version control:               4.7.0-dirty
 -- 
 --   Platform:
---     Timestamp:                   2022-10-23T13:51:27Z
+--     Timestamp:                   2023-02-05T17:07:17Z
 --     Host:                        Windows 10.0.19042 AMD64
 --     CMake:                       3.23.1
---     CMake generator:             Visual Studio 16 2019
---     CMake build tool:            C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe
---     MSVC:                        1929
+--     CMake generator:             Visual Studio 17 2022
+--     CMake build tool:            C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe
+--     MSVC:                        1931
 --     Configuration:               Debug Release MinSizeRel RelWithDebInfo
 -- 
 --   CPU/HW features:
---     Baseline:                    SSE SSE2
---       requested:                 SSE2
---     Dispatched code generation:  SSE4_1 SSE4_2 FP16 AVX
---       requested:                 SSE4_1 SSE4_2 AVX FP16
---       SSE4_1 (16 files):         + SSE3 SSSE3 SSE4_1
---       SSE4_2 (1 files):          + SSE3 SSSE3 SSE4_1 POPCNT SSE4_2
---       FP16 (0 files):            + SSE3 SSSE3 SSE4_1 POPCNT SSE4_2 FP16 AVX
---       AVX (4 files):             + SSE3 SSSE3 SSE4_1 POPCNT SSE4_2 AVX
+--     Baseline:                    SSE SSE2 SSE3
+--       requested:                 SSE3
+--     Dispatched code generation:  SSE4_1 SSE4_2 FP16 AVX AVX2 AVX512_SKX
+--       requested:                 SSE4_1 SSE4_2 AVX FP16 AVX2 AVX512_SKX
+--       SSE4_1 (16 files):         + SSSE3 SSE4_1
+--       SSE4_2 (1 files):          + SSSE3 SSE4_1 POPCNT SSE4_2
+--       FP16 (0 files):            + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 AVX
+--       AVX (4 files):             + SSSE3 SSE4_1 POPCNT SSE4_2 AVX
+--       AVX2 (32 files):           + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 FMA3 AVX AVX2
+--       AVX512_SKX (5 files):      + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 FMA3 AVX AVX2 AVX_512F AVX512_COMMON AVX512_SKX
 -- 
 --   C/C++:
 --     Built as dynamic libs?:      NO
 --     C++ standard:                11
---     C++ Compiler:                C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x86/cl.exe  (ver 19.29.30143.0)
---     C++ flags (Release):         /DWIN32 /D_WINDOWS /W4 /GR  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise  /arch:SSE /arch:SSE2 /EHa /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /MP  /MD /O2 /Ob2 /DNDEBUG 
---     C++ flags (Debug):           /DWIN32 /D_WINDOWS /W4 /GR  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise  /arch:SSE /arch:SSE2 /EHa /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /MP  /MDd /Zi /Ob0 /Od /RTC1 
---     C Compiler:                  C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x86/cl.exe
---     C flags (Release):           /DWIN32 /D_WINDOWS /W3  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise  /arch:SSE /arch:SSE2 /MP   /MD /O2 /Ob2 /DNDEBUG 
---     C flags (Debug):             /DWIN32 /D_WINDOWS /W3  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise  /arch:SSE /arch:SSE2 /MP /MDd /Zi /Ob0 /Od /RTC1 
---     Linker flags (Release):      /machine:X86  /INCREMENTAL:NO 
---     Linker flags (Debug):        /machine:X86  /debug /INCREMENTAL 
+--     C++ Compiler:                C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.31.31103/bin/Hostx64/x64/cl.exe  (ver 19.31.31107.0)
+--     C++ flags (Release):         /DWIN32 /D_WINDOWS /W4 /GR  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise     /EHa /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /wd4819 /MP  /MD /O2 /Ob2 /DNDEBUG 
+--     C++ flags (Debug):           /DWIN32 /D_WINDOWS /W4 /GR  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise     /EHa /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /wd4819 /MP  /MDd /Zi /Ob0 /Od /RTC1 
+--     C Compiler:                  C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.31.31103/bin/Hostx64/x64/cl.exe
+--     C flags (Release):           /DWIN32 /D_WINDOWS /W3  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise     /MP   /MD /O2 /Ob2 /DNDEBUG 
+--     C flags (Debug):             /DWIN32 /D_WINDOWS /W3  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise     /MP /MDd /Zi /Ob0 /Od /RTC1 
+--     Linker flags (Release):      /machine:x64  /INCREMENTAL:NO 
+--     Linker flags (Debug):        /machine:x64  /debug /INCREMENTAL 
 --     ccache:                      NO
 --     Precompiled headers:         YES
 --     Extra dependencies:          wsock32 comctl32 gdi32 ole32 setupapi ws2_32
@@ -79,8 +82,10 @@ HelloWorld-Example included. Tested with VS2022 and VS2019 Enterprise and msvc14
 --     Win32 UI:                    YES
 -- 
 --   Media I/O: 
---     ZLib:                        build (ver 1.2.12)
---     JPEG:                        build-libjpeg-turbo (ver 2.1.2-62)
+--     ZLib:                        build (ver 1.2.13)
+--     JPEG:                        build-libjpeg-turbo (ver 2.1.3-62)
+--       SIMD Support Request:      YES
+--       SIMD Support:              YES
 --     PNG:                         build (ver 1.6.37)
 --     TIFF:                        build (ver 42 - 4.2.0)
 --     JPEG 2000:                   build (ver 2.4.0)
@@ -109,9 +114,9 @@ HelloWorld-Example included. Tested with VS2022 and VS2019 Enterprise and msvc14
 -- 
 --   Other third-party libraries:
 --     Intel IPP:                   2020.0.0 Gold [2020.0.0]
---            at:                   D:/Jenkins/2/3/4/workspace/OpenCV-Build-Pkg/opencv/build_4.6.0_MSVC142_32/3rdparty/ippicv/ippicv_win/icv
+--            at:                   D:/Jenkins/2/3/4/workspace/OpenCV-Build-Pkg/opencv/build_4.7.0_MSVC143_64/3rdparty/ippicv/ippicv_win/icv
 --     Intel IPP IW:                sources (2020.0.0)
---               at:                D:/Jenkins/2/3/4/workspace/OpenCV-Build-Pkg/opencv/build_4.6.0_MSVC142_32/3rdparty/ippicv/ippicv_win/iw
+--               at:                D:/Jenkins/2/3/4/workspace/OpenCV-Build-Pkg/opencv/build_4.7.0_MSVC143_64/3rdparty/ippicv/ippicv_win/iw
 --     Lapack:                      NO
 --     Eigen:                       NO
 --     Custom HAL:                  NO
@@ -123,7 +128,7 @@ HelloWorld-Example included. Tested with VS2022 and VS2019 Enterprise and msvc14
 -- 
 --   Python (for build):            NO
 -- 
---   Install to:                    D:/out/opencv_4.6.0/MSVC142_32/Debug
+--   Install to:                    D:/out/opencv_4.7.0/MSVC143_64/Debug
 -- -----------------------------------------------------------------
 
 ```

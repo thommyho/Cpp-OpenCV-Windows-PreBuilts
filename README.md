@@ -2,7 +2,7 @@
 
 ##### Current stable build of openCV v4.8.0
 
-##### OpenCV [v4.8.0](https://github.com/opencv/opencv/releases/tag/v4.7.0) 
+##### OpenCV [v4.8.0](https://github.com/opencv/opencv/releases/tag/v4.8.0) 
 
 > They can be downloaded separately as zip archives from the  [releases](https://github.com/thommyho/Cpp-OpenCV-Windows-PreBuilts/releases) page
 

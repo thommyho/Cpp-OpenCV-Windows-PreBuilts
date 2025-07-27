@@ -22,9 +22,9 @@ HelloWorld-Example included. Tested with VS2022 and VS2019 Enterprise and msvc14
 
 | Build Tool | Version     |
 |------------|-------------|
-| cmake      | 3.20.0-rc1  |
-| MSVC 143   | 19.29.30143 |
-| MSVC 142   | 19.31.31107 |
+| cmake      | 3.23.1      |
+| MSVC 143   | 19.42.34433 |
+| MSVC 142   | 19.29.30133 |
 
 ```console
 General configuration for OpenCV 4.11.0 =====================================

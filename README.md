@@ -2,7 +2,7 @@
 
 ##### Current stable build of openCV v4.13.0
 
-##### OpenCV [v4.12.0](https://github.com/opencv/opencv/releases/tag/v4.13.0)
+##### OpenCV [v4.13.0](https://github.com/opencv/opencv/releases/tag/v4.13.0)
 
 > They can be downloaded separately as zip archives from the  [releases](https://github.com/thommyho/Cpp-OpenCV-Windows-PreBuilts/releases) page
 
